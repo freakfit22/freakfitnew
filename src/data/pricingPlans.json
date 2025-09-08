@@ -1,0 +1,49 @@
+[
+  {
+    "title": "BASIC PLAN",
+    "price": "$12",
+    "duration": "/ Month",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "features": [
+      "Access to basic gym equipment",
+      "1 Trainer Consultation per month",
+      "Locker room access",
+      "Free water bottle",
+      "Standard diet plan",
+      "Workout tracking app"
+    ],
+    "highlight": false
+  },
+  {
+    "title": "PREMIUM PLAN",
+    "price": "$20",
+    "duration": "/ Month",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "features": [
+      "Unlimited gym access",
+      "Weekly personal trainer sessions",
+      "Priority locker access",
+      "Custom diet plan",
+      "Yoga & Zumba classes",
+      "Workout tracking app",
+      "Access to steam bath",
+      "Free merchandise"
+    ],
+    "highlight": true
+  },
+  {
+    "title": "PRO PLAN",
+    "price": "$30",
+    "duration": "/ Month",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "features": [
+      "All Premium benefits",
+      "Daily 1-on-1 training",
+      "Physiotherapist support",
+      "Priority customer service",
+      "Advance supplement guide",
+      "Exclusive fitness webinars"
+    ],
+    "highlight": false
+  }
+]
