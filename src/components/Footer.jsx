@@ -1,41 +1,49 @@
+import logo2 from "../assets/logo2.png";
 export default function Footer() {
   return (
     <footer className="bg-[#1b2023] text-white py-16 font-sans">
-      <div className="max-w-7xl mx-auto px-8 md:px-0 text-justify">
+      <div className="max-w-7xl mx-auto px-8 md:px-0">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-20">
+          {/* Logo and About */}
           <div>
-            <h2 className="text-2xl md:text-3xl flex flex-col-2 font-bold mb-4">
-              <img className="h-20 w-20  cursor-pointer" src="src/assets/logo2.png" alt="Logo" />
-              <span className="pt-4 ml-2">Freak Fit</span>
-            </h2>
-            <p className="text-sm text-white/80 leading-relaxed">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry standard dummy text
-              ever since the 1500s,
+            <div className="flex items-center mb-4">
+              <img className="h-20 w-20 cursor-pointer" src={logo2} alt="Logo" />
+              <span className="pt-4 ml-2 text-3xl font-bold">Freak Fit</span>
+            </div>
+            <p className="text-base text-white/80 leading-relaxed mt-2">
+              FreakFit is a trusted online fitness platform helping 5,000+ clients
+              achieve real results through structured programs in Zumba, Dance
+              Fitness, Strength Training, Yoga, and Face Yoga. Guided by certified
+              trainers, we focus on safe, effective, and enjoyable sessions—empowering
+              individuals to lose weight, build strength, and sustain a healthier
+              lifestyle.
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:gap-40 ">
-            <div>
-              <h3 className="text-base font-semibold mb-4  cursor-pointer">Program</h3>
-              <ul className="space-y-2 text-sm text-white/80">
-                <li>Strength Training</li>
-                <li>Cardio Training</li>
-                <li>Health Training</li>
-                <li>Shape Body</li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="text-base font-semibold mb-4  cursor-pointer">About Us</h3>
-              <ul className="text-sm text-white/80 space-y-2">
-                <li>Company Info</li>
-                <li>Business Area</li>
-                <li>Member</li>
-                <li>Newsroom</li>
-              </ul>
-            </div>
+          {/* Programs */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Programs</h3>
+            <ul className="space-y-2 text-base text-white/80">
+              <li>Zumba + Other Activities</li>
+              <li>Weekend Yoga Sessions</li>
+              <li>Weekly Diet Consultation</li>
+              <li>Totally Live Session</li>
+              <li>Flexible Time-Slots</li>
+            </ul>
           </div>
+
+          {/* Contact / Info */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Contact</h3>
+            <ul className="space-y-2 text-base text-white/80">
+              <li>Email: freakfit22@gmail.com</li>
+              <li>Phone: +91 95286 25403</li>
+            </ul>
+          </div>
+        </div>
+        {/* Copyright */}
+        <div className="mt-12 border-t border-gray-700 pt-6 text-center text-sm text-gray-400">
+          &copy; {new Date().getFullYear()} Freak Fit. All rights reserved.
         </div>
       </div>
     </footer>
