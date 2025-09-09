@@ -22,13 +22,13 @@ export default function PricingSection() {
 </h3>
             <p className={`text-3xl md:text-5xl font-bold `}>
               {plan.price}{" "}
-              <span
+              {/* <span
                 className={`${
                   plan.highlight ? "text-white" : "text-[#FD4C00]"
                } text-[25px] align-super ml-1`}
               >
                 {plan.duration}
-              </span>
+              </span> */}
             </p>
             <p
               className={`text-xs mt-2 mb-6 ${
@@ -41,22 +41,6 @@ export default function PricingSection() {
             <ul className="text-sm space-y-2 text-left mb-6">
               {plan.features.map((feature, j) => (
                 <li key={j} className="flex items-center gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className={`h-4 w-4 flex-shrink-0 ${
-                      plan.highlight ? "text-white" : "text-[#FD4C00]"
-                    }`}
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={3}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
                   {feature}
                 </li>
               ))}
@@ -65,8 +49,8 @@ export default function PricingSection() {
             <button
               className={`px-4 py-2 ${
                 plan.highlight
-                  ? "bg-[#FD4C00] hover:bg-white cursor-pointer hover:text-black"
-                  : "border-2 border-[#FD4C00] hover:bg-[#FD4C00]  cursor-pointer"
+                  ? "bg-[#B08DC1] hover:bg-white cursor-pointer hover:text-black"
+                  : "border-2 border-[#B08DC1] hover:bg-[#B08DC1]  cursor-pointer"
               } text-white transition`}
             >
               Learn More
