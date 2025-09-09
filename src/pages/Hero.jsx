@@ -1,4 +1,85 @@
+// import Heroimg from "../assets/heroimg.png";
+// import VideoFrame from "../components/VideoFrame";
+// function Hero() {
+//   return (
+//     <div className="relative  md:min-h-screen font-sans text-white overflow-hidden  z-10">
+//       {/* Gradient overlay */}
+//       <div className="absolute top-0 right-0 md:h-[828px] w-150 h-201 bg-[radial-gradient(circle_at_top_left,_#672723_-5%,_#1f252b_70%)] md:bg-gradient-to-b md:from-[#a885b9] md:via-[#3b4758] md:to-[#1f252b_70%] md:z-0"></div>
+
+//       {/* Main Content */}
+//       <div className="relative z-10 flex flex-col md:flex-row items-center justify-between px-6 md:px-0 pt-10 md:pt-0">
+//         {/* Left Section */}
+//         <div className="md:w-1/2 md:ml-20 space-y-6 md:mt-50 mt-16 text-justify md:text-justify">
+//           <h1 className="text-4xl  md:text-6xl font-extrabold leading-tight">
+//             DANCE INTO <br />
+//             <span className="text-[#9ec0f5]">ZUMBA</span>
+//           </h1>
+//           <p className="text-xs md:text-2xl mr-18 md:mr-0 md:mt-10 text-gray-300  max-w- mx-auto  text-justify md:text-justify">
+//              Experience the energy and fun of Zumba! Join our vibrant classes to burn calories, boost your mood, and groove to exciting rhythms. Perfect for all fitness levels—let’s move, sweat, and smile together!
+
+//           </p>
+
+//           {/* Buttons */}
+//           <div className="flex flex-row sm:flex-row sm:space-x-16  space-x-4 sm:space-y-0  text-xl md:mt-10 md:justify-start">
+//            <a
+//   href="https://wa.me/917078068295?text=Hi%20I%20am%20interested%20in%20your%20Zumba%20classes!"
+//   target="_blank"
+//   rel="noopener noreferrer"
+//   className="bg-gradient-to-b from-[#B08DC1] to-[#A3CBEC] text-white md:text-xl font-semibold text-xs md:cursor-pointer md:py-0 md:px-0 px-2 shadow-md w-25 md:h-15 md:w-40 flex items-center justify-center"
+// >
+//   Learn More
+// </a>
+//             {/* <div className="p-[2px]  bg-gradient-to-b from-[#B08DC1] to-[#A3CBEC] inline-block"> */}
+//             {/* <button className="bg-[#4f4662] text-white px-4 py-2 md:text-xl text-xs md:cursor-pointer hover:bg-white hover:text-black transition w-25 md:h-15 md:w-40">
+//               Learn More
+//             </button> */}
+//          {/* </div> */}
+
+//           </div>
+//         </div>
+
+//         {/* Right Section */}
+//         <div className="relative md:mt-30  mt-10  md:mr-20 flex justify-center">
+//           {/* Image box */}
+//           <div className="w-[450px] h-[340px] md:w-[800px] md:h-[645px] md:mt-15 bg-white  overflow-hidden ml-60  relative">
+//             <img
+//               src={Heroimg}
+//               alt="Gym"
+//               className="object-cover w-full h-full"
+//             />
+
+//             {/* Badge */}
+//           </div>
+//                <button
+//               className="absolute top-2 right-2 text-white text-2xl bg-black bg-opacity-50 rounded-full px-3 py-1"
+//               onClick={() => setShowVideo(false)}
+//             >
+//               &times;
+//             </button>
+//             <video
+//               src={ZumbaVideo}
+//               controls
+//               autoPlay
+//               className="w-full h-auto rounded-lg"
+//             />
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default Hero;
+
+
+
+import { useState } from "react";
+import Heroimg from "../assets/heroimg.png";
+import VideoFrame from "../components/VideoFrame";
+import ZumbaVideo from "../assets/introclip.mp4"; // Make sure this path is correct
+
 function Hero() {
+  const [showVideo, setShowVideo] = useState(false);
+
   return (
     <div className="relative  md:min-h-screen font-sans text-white overflow-hidden  z-10">
       {/* Gradient overlay */}
@@ -9,26 +90,29 @@ function Hero() {
         {/* Left Section */}
         <div className="md:w-1/2 md:ml-20 space-y-6 md:mt-50 mt-16 text-justify md:text-justify">
           <h1 className="text-4xl  md:text-6xl font-extrabold leading-tight">
-            SHAPE YOUR <br />
-            <span className="text-[#9ec0f5]">BODY</span>
+            GET FIT WITH <br />
+            <span className="text-[#9ec0f5]">ZUMBA</span>
           </h1>
           <p className="text-xs md:text-2xl mr-18 md:mr-0 md:mt-10 text-gray-300  max-w- mx-auto  text-justify md:text-justify">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry standard dummy text ever
-            since the 1500s,
+            Experience the energy and fun of Zumba! Join our vibrant classes to burn calories, boost your mood, and groove to exciting rhythms. Perfect for all fitness levels—let’s move, sweat, and smile together!
           </p>
 
           {/* Buttons */}
           <div className="flex flex-row sm:flex-row sm:space-x-16  space-x-4 sm:space-y-0  text-xl md:mt-10 md:justify-start">
-            <button className="bg-gradient-to-b  from-[#B08DC1] to-[#A3CBEC] text-white md:text-xl font-semibold text-xs md:cursor-pointer md:py-0  md:px-0 px-2 shadow-md w-25 md:h-15 md:w-40">
-              Learn More
+            <a
+              href="https://wa.me/919528625403?text=Hi%20I%20am%20interested%20in%20your%20Zumba%20classes!"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-b from-[#B08DC1] to-[#A3CBEC] text-white md:text-xl font-semibold text-xs md:cursor-pointer md:py-0 md:px-0 px-2 shadow-md w-25 md:h-15 md:w-40 flex items-center justify-center"
+            >
+              Join Now
+            </a>
+            <button
+              className="bg-gradient-to-b from-[#B08DC1] to-[#A3CBEC] text-white md:text-xl font-semibold text-xs md:cursor-pointer md:py-0 md:px-0 px-2 shadow-md w-25 md:h-15 md:w-40 flex items-center justify-center"
+              onClick={() => setShowVideo(true)}
+            >
+              More Info
             </button>
-            <div className="p-[2px]  bg-gradient-to-b from-[#B08DC1] to-[#A3CBEC] inline-block">
-  <button className="bg-[#4f4662] text-white px-4 py-2 md:text-xl text-xs md:cursor-pointer hover:bg-white hover:text-black transition w-25 md:h-15 md:w-40">
-    Learn More
-  </button>
-</div>
-
           </div>
         </div>
 
@@ -37,18 +121,19 @@ function Hero() {
           {/* Image box */}
           <div className="w-[450px] h-[340px] md:w-[800px] md:h-[645px] md:mt-15 bg-white  overflow-hidden ml-60  relative">
             <img
-              src="src/assets/Gym.jpg"
+              src={Heroimg}
               alt="Gym"
               className="object-cover w-full h-full"
             />
-
             {/* Badge */}
-          </div>
-          <div className="absolute h-30 right-95 bottom-20  md:left-45 md:right-180 md:top-1/3 md:translate-y-1/4 bg-[#96A0D1] md:bg-[#b48fc5] px-6 py-8 md:px-8 md:py-8  text-center font-bold text-white text-xl md:text-3xl  shadow-lg">
-            OPEN <br /> <span className="text-3xl md:text-4xl">24H</span>
           </div>
         </div>
       </div>
+
+      {/* Video Frame Modal */}
+      {showVideo && (
+        <VideoFrame src={ZumbaVideo} onClose={() => setShowVideo(false)} />
+      )}
     </div>
   );
 }

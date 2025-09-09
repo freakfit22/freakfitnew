@@ -21,22 +21,22 @@ const Header = () => {
         </div>
 
         <nav className="space-x-18 md:text-2xl font-semibold  hidden md:flex">
-          <Link to="/" className="hover:underline hover:text-black">
+          {/* <Link to="/" className="hover:underline hover:text-black">
             Home
-          </Link>
-          <Link to="/product" className="hover:underline hover:text-black">
+          </Link> */}
+          {/* <Link to="/product" className="hover:underline hover:text-black">
             Product
           </Link>
           <Link to="/contact" className="hover:underline hover:text-black">
             Contact
-          </Link>
+          </Link> */}
 
-          <Link
+          {/* <Link
             to="/login"
             className="border border-white px-6 py-1 text-white md:ml-85 md:mr-50 font-medium hover:bg-white hover:text-black transition"
           >
             Login
-          </Link>
+          </Link> */}
         </nav>
 
         {/* Mobile Menu Icon */}
@@ -45,11 +45,11 @@ const Header = () => {
             onClick={() => setIsMenuOpen(true)}
             className="focus:outline-none"
           >
-            <div className="flex flex-col space-y-1.5">
+            {/* <div className="flex flex-col space-y-1.5">
               <span className="w-8 h-0.5 bg-white ml-2"></span>
               <span className="w-6 h-0.5 bg-white ml-4"></span>
               <span className="w-4 h-0.5 bg-white ml-6"></span>
-            </div>
+            </div> */}
           </button>
         </div>
       </header>
@@ -89,7 +89,7 @@ const Header = () => {
             &times;
           </button>
         </div>
-        <nav className="flex flex-col p-4 space-y-4 text-lg  font-medium">
+        {/* <nav className="flex flex-col p-4 space-y-4 text-lg  font-medium">
           <Link to="/" onClick={() => setIsMenuOpen(false)}>
             Home
           </Link>
@@ -102,7 +102,7 @@ const Header = () => {
           <Link to="/login" onClick={() => setIsMenuOpen(false)}>
             Login
           </Link>
-        </nav>
+        </nav> */}
       </div>
     </>
   );

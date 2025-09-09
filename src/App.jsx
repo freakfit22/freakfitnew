@@ -26,8 +26,8 @@ function App() {
       {/* ✅ Page-specific content */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/product" element={<Product />} />
+        {/* <Route path="/contact" element={<Contact />} /> */}
+        {/* <Route path="/product" element={<Product />} /> */}
       </Routes>
 
       {/* ✅ Conditional sections and footer */}
