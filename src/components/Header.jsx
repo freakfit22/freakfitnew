@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import logo2 from "../assets/logo2.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,7 +9,7 @@ const Header = () => {
     <>
       <header className="bg-transparent text-2xl absolute md:top-8 w-full z-50 text-white p-4 flex justify-between items-center">
         <div className="flex items-center space-x-4 md:space-x-6 ml-2 md:ml-12 ">
-          <img src="src/assets/logo2.png" alt="Logo" className="w-16 h-auto" />
+          <img src={logo2} alt="Logo" className="w-16 h-auto" />
 
           <div className="flex flex-col">
             <h1 className="text-xl md:text-2xl font-bold text-white">
