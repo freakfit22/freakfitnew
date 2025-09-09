@@ -41,7 +41,7 @@ function App() {
           <PricingSection />
           <MemberUsSection />
           <ChooseSection />
-          <PersonalTrainerSection />
+          {/* <PersonalTrainerSection /> */}
           <Footer />
         </>
       )}
