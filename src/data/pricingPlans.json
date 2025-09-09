@@ -1,48 +1,55 @@
 [
   {
-    "title": "BASIC PLAN",
-    "price": "$12",
-    "duration": "/ Month",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "title": "1 MONTH PLAN",
+    "price": "₹999",
+    "duration": "1Month",
+    "description": "Best for beginners to kickstart their fitness journey with full access to all features.",
     "features": [
-      "Access to basic gym equipment",
-      "1 Trainer Consultation per month",
-      "Locker room access",
-      "Free water bottle",
-      "Standard diet plan",
-      "Workout tracking app"
+      "💃 Zumba + Other Activities",
+      "🧘‍♀ Weekend Yoga Sessions",
+      "👥 Doubt Sessions",
+      "💪 Personalized Diet Plan",
+      "👩‍⚕ Weekly Diet Consultation",
+      "✨ Totally Live session",
+      "🎥 Recordings of Live Classes (As Needed)",
+      "💯 Miss Day Extensions",
+      "⏰ Flexible Time-Slots"
     ],
     "highlight": false
   },
   {
-    "title": "PREMIUM PLAN",
-    "price": "$20",
-    "duration": "/ Month",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "title": "2 MONTH PLAN",
+    "price": "₹1599",
+    "duration": "2Month",
+    "description": "Stay consistent and see better results with two months of unlimited access.",
     "features": [
-      "Unlimited gym access",
-      "Weekly personal trainer sessions",
-      "Priority locker access",
-      "Custom diet plan",
-      "Yoga & Zumba classes",
-      "Workout tracking app",
-      "Access to steam bath",
-      "Free merchandise"
+      "💃 Zumba + Other Activities",
+      "🧘‍♀ Weekend Yoga Sessions",
+      "👥 Doubt Sessions",
+      "💪 Personalized Diet Plan",
+      "👩‍⚕ Weekly Diet Consultation",
+      "✨ Totally Live session",
+      "🎥 Recordings of Live Classes (As Needed)",
+      "💯 Miss Day Extensions",
+      "⏰ Flexible Time-Slots"
     ],
-    "highlight": true
+    "highlight": false
   },
   {
-    "title": "PRO PLAN",
-    "price": "$30",
-    "duration": "/ Month",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "title": "3 MONTH PLAN",
+    "price": "₹2199",
+    "duration": "3Month",
+    "description": "Commit to your transformation and enjoy all premium features for three months.",
     "features": [
-      "All Premium benefits",
-      "Daily 1-on-1 training",
-      "Physiotherapist support",
-      "Priority customer service",
-      "Advance supplement guide",
-      "Exclusive fitness webinars"
+      "💃 Zumba + Other Activities",
+      "🧘‍♀ Weekend Yoga Sessions",
+      "👥 Doubt Sessions",
+      "💪 Personalized Diet Plan",
+      "👩‍⚕ Weekly Diet Consultation",
+      "✨ Totally Live session",
+      "🎥 Recordings of Live Classes (As Needed)",
+      "💯 Miss Day Extensions",
+      "⏰ Flexible Time-Slots"
     ],
     "highlight": false
   }

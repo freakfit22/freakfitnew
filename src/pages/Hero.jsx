@@ -14,14 +14,12 @@ function Hero() {
       {/* Main Content */}
       <div className="relative z-10 flex flex-col md:flex-row items-center justify-between px-6 md:px-0 pt-10 md:pt-0">
         {/* Left Section */}
-        <div className="md:w-1/2 md:ml-20 space-y-6 md:mt-50 mt-16 text-justify md:text-justify">
+        <div className="md:w-1/2 md:ml-20 space-y-6 md:mt-50 mt-16">
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-left">
-            GET FIT WITH <br />
-            <span className="text-[#9ec0f5]">ZUMBA</span>
+            GET FIT WITH <br/> <span className="text-[#9ec0f5]">ZUMBA</span>
           </h1>
           <p className="text-xs md:text-2xl mr-18 md:mr-0 md:mt-10 text-gray-300  max-w- mx-auto  text-justify md:text-justify">
-            Experience the energy and fun of Zumba! Join our vibrant classes to burn calories, boost your mood, and groove to exciting rhythms. Perfect for all fitness levels—let’s move, sweat, and smile together!
-          </p>
+Be the best version of YOU with FreakFit Online Zumba Classes—anytime, anywhere! Perfect for busy moms, working women, or anyone wanting to lose weight, our live sessions with flexible timings and diet plans make fitness fun, energetic, and effective. Burn calories, boost confidence, and dance your way to health!          </p>
 
           {/* Buttons */}
           <div className="flex flex-row sm:flex-row sm:space-x-16  space-x-4 sm:space-y-0  text-xl md:mt-10 md:justify-start">
