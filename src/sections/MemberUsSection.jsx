@@ -1,4 +1,36 @@
-import teamMembers from "../data/teamMembers.json";
+// import teamMembers from "../data/teamMembers.json";
+import member1 from "../assets/Website/member1.jpg";
+import member2 from "../assets/Website/member2.jpg";
+import member3 from "../assets/Website/member3.jpg";
+import member4 from "../assets/Website/member4.jpg";
+const teamMembers = [
+  {
+    name: "Ruchi Harjpal Genani",
+    title: "Zumba Trainer",
+    desc: "Specialized in Zumba, Aerobics, HIIT, Weight Loss Training, and Fusion Workout.",
+    img: member1
+  },
+   {
+    name: "Saloni Jaisinghani",
+    title: "Zumba Trainer",
+    desc: "Specialized in Zumba, Aerobics, HIIT, Weight Loss Training, and Fusion Workout.",
+    img: member2
+  },
+   {
+    name: "Sneha Lulla",
+    title: "Zumba Trainer",
+    desc: "Specialized in Zumba, Aerobics, HIIT, Weight Loss Training, and Fusion Workout.",
+    img: member3
+  },
+    {
+    name: "Anamika Sharma",
+    title: "Yoga Trainer",
+    desc: "Specialized in Yoga, Meditation, Face Yoga, and Mindfulness.",
+    img: member4
+  },
+
+  // ...other members
+];
 
 export default function MemberUsSection() {
   return (
@@ -14,7 +46,7 @@ export default function MemberUsSection() {
           <div key={index} className="flex flex-col items-center text-center mt-10">
             <div className="w-24 h-24 rounded-full overflow-hidden border border-white/20 mb-4">
               <img src={member.img} alt={member.name} className="w-full h-full object-cover" />
-            </div>
+            </div> 
             <h3 className="text-[#FD4C00] font-semibold text-sm mb-1">{member.name}</h3>
             <p className="text-xs text-white mb-2">{member.title}</p>
             <p className="text-xs text-white max-w-[200px]">{member.desc}</p>

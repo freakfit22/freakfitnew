@@ -1,5 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import { Check } from "lucide-react";
+import review1 from "../assets/Website/review1.jpg";
+import review2 from "../assets/Website/review2.jpg";
+import review3 from "../assets/Website/review3.jpg";
+
+
 
 const MemberUsSection = () => {
   return (
@@ -17,21 +22,21 @@ const MemberUsSection = () => {
         <div className="hidden md:grid grid-cols-2 grid-rows-2 gap-4">
           <div className="w-full h-60 rounded-md overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1554284126-aa88f22d8b74"
+              src={review3}
               alt="Placeholder 1"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="w-full h-[500px] row-span-2 rounded-md overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1"
+              src={review1}
               alt="Placeholder 2"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="w-full h-60 rounded-md overflow-hidden">
             <img
-              src="src/assets/Gym.jpg"
+              src={review2}
               alt="Placeholder 3"
               className="w-full h-full object-cover"
             />
@@ -46,10 +51,15 @@ const MemberUsSection = () => {
 
           <ul className="space-y-6 text-sm mb-10 md:text-base">
             {[
-              "HAVE A PERSONAL TRAINER",
-              "FREE PERSONAL TRAINER FOR NEW MEMBERS",
-              "FREE SUPPLEMENTS FOR EVERY NEW MEMBER",
-              "OPEN 24 HOURS",
+               "ZUMBA + OTHER ACTIVITIES",
+                "WEEKEND YOGA SESSIONS",
+                "PERSONALIZED DIET PLAN",
+                "WEEKLY DIET CONSULTATION",
+                "TOTALLY LIVE SESSION",
+                "RECORDINGS OF LIVE CLASSES (AS NEEDED)",
+                "MISS DAY EXTENSIONS",
+                "FLEXIBLE TIME-SLOTS",
+                "User Satisfaction",
             ].map((text, index) => (
               <li
                 key={index}
