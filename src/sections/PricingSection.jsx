@@ -46,15 +46,22 @@ export default function PricingSection() {
               ))}
             </ul>
 
-            <button
-              className={`px-4 py-2 ${
-                plan.highlight
-                  ? "bg-[#B08DC1] hover:bg-white cursor-pointer hover:text-black"
-                  : "border-2 border-[#B08DC1] hover:bg-[#B08DC1]  cursor-pointer"
-              } text-white transition`}
+           <a
+              href="https://wa.me/919528625403?text=Hi%20I%20am%20interested%20in%20your%20online%20zumba%20classes.%20Share%20me%20payment%20detail%20and%20program%20detail"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Learn More
-            </button>
+              <button
+                className={`px-4 py-2 ${
+                  plan.highlight
+                    ? "bg-[#B08DC1] hover:bg-white cursor-pointer hover:text-black"
+                    : "border-2 border-[#B08DC1] hover:bg-[#B08DC1] cursor-pointer"
+                } text-white transition`}
+              >
+                Learn More
+              </button>
+            </a>
+
           </div>
         ))}
       </div>
